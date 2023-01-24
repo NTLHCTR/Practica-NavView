@@ -1,0 +1,103 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader5"
+        android:title="RECENT MAILS">
+        <menu>
+            <item
+                android:id="@+id/navigation_subheader2"
+                android:icon="@drawable/iconallinboxes"
+                android:iconTint="#F44336"
+                android:title="All In boxes" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/iconinbox"
+            android:title="Inbox"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/iconoutbox"
+            android:title="Outbox"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/iconfavorites"
+            android:title="Favorites"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/iconarchive"
+            android:title="Archive"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/icontrash"
+            android:title="Trash"/>
+        <item
+            android:id="@+id/menu_seccion_6"
+            android:icon="@drawable/iconspam"
+            android:title="Spam"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="ALL LABELS">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/iconfamily"
+                android:title="Family"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/iconstarred"
+                android:title="Starred"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/iconsnoozed"
+                android:title="Snoozed"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/iconlabel"
+                android:title="Boxbe Wainting List"/>
+            <item
+                android:id="@+id/menu_opcion_5"
+                android:icon="@drawable/iconlabel"
+                android:title="Work"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader3"
+        android:title="GOOGLE APPS">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_7"
+                android:icon="@drawable/iconcalendar"
+                android:title="Calendar"/>
+            <item
+                android:id="@+id/menu_opcion_8"
+                android:icon="@drawable/iconcontacts"
+                android:title="Contacts"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_subheader4"
+        android:title="SETTINGS">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_9"
+                android:icon="@drawable/iconconfig"
+                android:title="Configuration"/>
+            <item
+                android:id="@+id/menu_opcion_10"
+                android:icon="@drawable/iconhelp"
+                android:title="Help"/>
+        </menu>
+    </item>
+</menu>
